@@ -1,14 +1,25 @@
 #include <iostream>
 
 int main(){
-    double decimal = 3.5; //numbers with decimal
-    int integer = 5; //integer, no decimal, only full numbers
+    //Double, numbers with decimal
+    double decimal = 3.5;
 
-    std::cout << decimal << std::endl; //output 3.5
+    //Integer, no decimal, only full numbers
+    int integer = 5;
+
+    //Char, single characters
+    char initial = 'A';
+
+    //Boolean, true or false values
+    bool active = false;
 
     //What if you declare a decimal with a int declaration?
     int testing_dec = 5.52;
-    std::cout << testing_dec << std::endl; //output 5
-    //C++ ignores everything behind the period and just uses the first bit.
+    std::cout << testing_dec << std::endl; //Output: 5 => double turned into a integer
+    
+    //What if you declare a char with more than one character?
+    char testing_char = 'EA';
+    std::cout << testing_char << std::endl; //Output: A => Char forces only last letter
+   
     return 0;
 }
