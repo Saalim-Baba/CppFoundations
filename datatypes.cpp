@@ -13,6 +13,9 @@ int main(){
     //Boolean, true or false values
     bool active = false;
 
+    //String, a sequence of text
+    std::string string = "I'm a string";
+
     //What if you declare a decimal with a int declaration?
     int testing_dec = 5.52;
     std::cout << testing_dec << std::endl; //Output: 5 => double turned into a integer
