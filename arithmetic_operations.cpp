@@ -6,31 +6,31 @@ int main(){
     Using these operators (+,-,*,/)
     */
 
-    double codebases = 12;
+    int integer = 12;
 
     //Add to variable
-    codebases = codebases + 1;
+    integer = integer + 1;
     //alternative for this (short version and more common)
-    codebases+= 1;
+    integer+= 1;
     //If you only want to add ONE, you can use the increment operator
-    codebases++;
+    integer++;
 
     //Subtract from variable
-    codebases = codebases - 1;
+    integer = integer - 1;
     //alternative for this (short version and more common)
-    codebases-= 1;
+    integer-= 1;
     //increment operator for ONE
-    codebases--;
+    integer--;
 
     //Multiply variable
-    codebases = codebases * 2;
+    integer = integer * 2;
     //alternative for this (short version)
-    codebases*= 2;
+    integer*= 2;
 
     //Divide variable
-    codebases = codebases / 2;
+    integer = integer / 2;
     //alternative for this (short version)
-    codebases /= 2;
+    integer /= 2;
 
     /*
     Important note to this section, be careful which datatype you choose for the variable
@@ -38,7 +38,11 @@ int main(){
     decimal. Thats called "truncated". To avoid this use the datatype "double"
     */
 
-   std::cout << codebases << std::endl;
+   //Modulo Operator, lets you check if there is a rest after dividing
+   int bugs = integer % 2;
+
+   std::cout << integer << std::endl;
+   std::cout << bugs;
 
     return 0;
 }
