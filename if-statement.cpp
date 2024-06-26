@@ -12,6 +12,9 @@ int main(){
     if(year == 2024){
         std::cout << "It's correct, the year given is " << year;
     }
+    else if(year < 2000){
+        std::cout << "Wrong century buddy";
+    }
     else{
         std::cout << "Nope, not the right year buddy";
     };
