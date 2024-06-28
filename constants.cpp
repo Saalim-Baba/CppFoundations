@@ -6,6 +6,6 @@ int main(){
     used for things that shouldn't change. Example: value of speed of light
     one-time declaration
     */
-    const std::string author = "milaasHD";
+    const std::string author = "Saalim Baba";
     return 0;
 }
