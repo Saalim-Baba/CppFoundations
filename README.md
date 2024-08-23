@@ -5,3 +5,5 @@ CppFoundations is a beginner's guide to C++, focusing on the basics of programmi
 
 ## Getting Started
 Clone the repository and explore the examples to build a foundation in C++.
+
+## Still in progress to add more
